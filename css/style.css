@@ -866,7 +866,7 @@ h1, h2, h3, h4, h5,
 .socialmedia {
   display: flex;
   align-items: center;
-  position: absolute;
+  position: fixed;
   left: 270px;
 }
 
