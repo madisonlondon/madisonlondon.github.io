@@ -980,6 +980,7 @@ h1, h2, h3, h4, h5,
 	display: block;
 }
 
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -1054,8 +1055,10 @@ h1, h2, h3, h4, h5,
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
+  -webkit-animation-fill-mode: forwards; 
   animation-name: fade;
   animation-duration: 1.5s;
+  animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes fade {
@@ -1072,3 +1075,4 @@ h1, h2, h3, h4, h5,
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+

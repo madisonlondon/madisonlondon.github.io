@@ -175,7 +175,13 @@
       </div>
 
       <div class="site-section section-2" id="verona-section">
-        <div class="container">
+        <span class="section-sub-title-new-page d-block" style="text-align: center;">Italian Studies</span>
+        <h2 class="section-title-new-page" style="position:absolute; left:665px;">My Journey</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+
             <div class="slideshow-container">
 
                 <div class="mySlides fade">
@@ -186,7 +192,7 @@
                 
                 <div class="mySlides fade">
                   <div class="numbertext">2 / 3</div>
-                  <img src="img_snow_wide.jpg" style="width:100%">
+                  <img src="images/verona/bolzano.jpg" style="width:100%">
                   <div class="text">Caption Two</div>
                 </div>
                 
@@ -208,36 +214,37 @@
                   <span class="dot" onclick="currentSlide(3)"></span> 
                 </div>
                 
+
                 <script>
-                    var slideIndex = 1;
-                    showSlides(slideIndex);
-                    
-                    function plusSlides(n) {
-                      showSlides(slideIndex += n);
-                    }
-                    
-                    function currentSlide(n) {
-                      showSlides(slideIndex = n);
-                    }
-                    
-                    function showSlides(n) {
-                      var i;
-                      var slides = document.getElementsByClassName("mySlides");
-                      var dots = document.getElementsByClassName("dot");
-                      if (n > slides.length) {slideIndex = 1}    
-                      if (n < 1) {slideIndex = slides.length}
-                      for (i = 0; i < slides.length; i++) {
-                          slides[i].style.display = "none";  
-                      }
-                      for (i = 0; i < dots.length; i++) {
-                          dots[i].className = dots[i].className.replace(" active", "");
-                      }
-                      slides[slideIndex-1].style.display = "block";  
-                      dots[slideIndex-1].className += " active";
-                    }
-                    </script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}    
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                }
+                </script>
+
                 
-        </div>
       </div>
      
     <footer class="footer-section">
