@@ -671,7 +671,7 @@ h1, h2, h3, h4, h5,
 .section-sub-title-new-page {
   color: #c4ff00;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 900;
   display: block;
   margin-bottom: 1.5rem; }
@@ -688,7 +688,7 @@ h1, h2, h3, h4, h5,
       font-size: 2rem; } }
 
   .section-title-new-page {
-    font-size: 5rem;
+    font-size: 3.5rem;
     color: #000;
     margin-bottom: 1.8rem;
     font-family: 'Shrikhand', cursive;
