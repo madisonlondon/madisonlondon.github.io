@@ -595,7 +595,7 @@ h1, h2, h3, h4, h5,
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover {
           color: #b1a1ed; }
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active:after {
-          background: #c4ff00; }
+          background: #b1a1ed; }
   .sticky-wrapper .shrink {
     padding-top: 10px !important;
     padding-bottom: 10px !important; }
@@ -1054,7 +1054,7 @@ h1, h2, h3, h4, h5,
 }
 
 .active, .dot:hover {
-  background-color: #b5ec00f8;
+  background-color: #fff;
 }
 
 /* Fading animation */
